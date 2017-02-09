@@ -4,7 +4,7 @@
 * Current Production Website is located at www.bintoa.com
 * Current Website is running WordPress with JS/HTML/CSS Modifications
 
-# USAGE
+# Usage
   - Development includes JavaScript/CSS/HTML/ReactJS 
   - Generative Designs will be shared publicly
   - Generative Designs accomplished in Python - Open Source for CC usage (Creative Commons)
