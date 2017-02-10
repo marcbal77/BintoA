@@ -1,9 +1,17 @@
-#                         BintoA
-# BintoA is for Bits into Atoms
-# CURRENT PRODUCTION WEBSITE IS LOCATED AT WWW.BINTOA.COM 
-# CURRENT WEBSITE IS RUNNING WORDPRESS WITH JS/HTML/CSS MODIFICATIONS
+# B into A
 
-# THIS REPOSITORY IS FOR DEVELOPMENT OF THE FUTURE LATE 2017/EARLY 2018 BINTOA RELEASE
+* B into A refers to the upcoming website for Bits into Atoms (3D Printing and Design Site + Blog)
+* Current Production Website is located at www.bintoa.com
+* Current Website is running WordPress with JS/HTML/CSS Modifications
 
-# DEVELOPMENT INCLUDES JAVASCRIPT/CSS/HTML/REACTJS - (GENERATIVE DESIGN MODELS WILL BE STORED PUBLICLY)
-# GENERATIVE DESIGNS ACCOMPLISHED IN PYTHON - OPEN SOURCE FOR CC USAGE (CC = CREATIVE COMMONS)
+# Usage
+- Development includes JavaScript/CSS/HTML/ReactJS 
+- Generative Designs will be shared publicly
+- Generative Designs accomplished in Python - Open Source for CC usage (Creative Commons)
+
+THIS REPOSITORY IS FOR DEVELOPMENT OF THE FUTURE LATE 2017/EARLY 2018 BINTOA RELEASE
+
+Additional usage will be explained and added as code is developed
+
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+
