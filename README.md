@@ -11,8 +11,7 @@
 
 This repository is for development of the future late 2017/early 2018 BintoA Release
 
-ADDITIONAL USAGE WILL BE EXPLAINED AND ADDED AS CODE IS DEVELOPED
-
+Additional usage will be explained and added as code is developed
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
