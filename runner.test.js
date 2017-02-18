@@ -22,7 +22,12 @@ const debug = require( 'debug' )( 'test-runner' ),
  */
 const boot = require( './boot-test' ),
 	setup = require( './setup' );
-
+/**
+*Program Contraints Placement
+*Usage an object lookup created
+*Parsing action added
+*mocha constant added 
+**/
 program
 	.usage( '[options] [files]' )
 	.option( '-R, --reporter <name>', 'specify the reporter to use', 'spec' )
