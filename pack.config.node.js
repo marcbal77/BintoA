@@ -54,6 +54,7 @@ function getExternals() {
 	return externals;
 }
 
+// webpack configuration for site path definitions - allow dev tools to access
 var webpackConfig = {
 	devtool: 'source-map',
 	entry: 'index.js',
@@ -116,7 +117,7 @@ var webpackConfig = {
 	],
 	externals: getExternals()
 };
-
+//enable opt out option - opinino based serve
 if ( config.isEnabled( 'webpack/persistent-caching' ) ) {
 	webpackConfig.recordsPath = path.join( __dirname, '.webpack-cache', 'server-records.json' ),
 	webpackConfig.plugins.unshift( new HardSourceWebpackPlugin( { cacheDirectory: path.join( __dirname, '.webpack-cache', 'server' ) } ) );
