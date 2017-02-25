@@ -47,7 +47,9 @@ module.exports = {
 		} ),
 		new webpack.optimize.OccurenceOrderPlugin()
 	],
+	// Module Specitifity enhancement
 	module: {
+		//load JSON and HTML
 		loaders: [
 			{
 				test: /\.json$/,
