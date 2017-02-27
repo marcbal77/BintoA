@@ -21,7 +21,7 @@ var start = Date.now(),
 	server,
 	compiler,
 	hotReloader;
-
+// boot status from non-fork
 function sendBootStatus( status ) {
 	// don't send anything if we're not running in a fork
 	if ( ! process.send ) {
