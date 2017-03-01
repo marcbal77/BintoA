@@ -80,7 +80,7 @@ files = files.reduce( ( memo, filePath ) => {
 				'test',
 				path.basename( filePath )
 			);
-
+				//Path Check
 			if ( fs.existsSync( pathGuess ) ) {
 				console.warn(
 					chalk.red.bold( 'WARNING:' ),
@@ -104,7 +104,7 @@ files = files.reduce( ( memo, filePath ) => {
 
 				process.exit( 1 );
 			}
-
+			// warn console
 			console.warn(
 				chalk.red.bold( 'ERROR:' ),
 				chalk.yellow( 'Could not find chosen test file.\n\t' ),
