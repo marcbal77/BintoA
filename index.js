@@ -30,7 +30,9 @@ function sendBootStatus( status ) {
 	process.send( { boot: status } );
 }
 
+// console - info
 console.log( chalk.yellow( '%s booted in %dms - http://%s:%s' ), pkg.name, ( Date.now() ) - start, host, port );
+// console - info
 console.info( chalk.cyan( '\nGetting bundles ready, hold on...' ) );
 
 server = http.createServer( app );
