@@ -27,6 +27,7 @@ module.exports = {
 			'wpcom',
 		]
 	},
+	// output path
 	output: {
 		path: path.join( __dirname, 'public' ),
 		publicPath: '/calypso/',
@@ -34,6 +35,7 @@ module.exports = {
 		library: '[name]',
 		devtoolModuleFilenameTemplate: 'app:///[resource-path]'
 	},
+	//plugin add 
 	plugins: [
 		new webpack.DllPlugin( {
 			path: path.join( __dirname, 'build', 'dll', '[name].' + bundleEnv + '-manifest.json' ),
