@@ -1,4 +1,4 @@
-{
+{// json pack for array information exchange
   "name": "wp-calypso",
   "version": "0.17.0",
   "description": "A pure REST-API and JS based version of the WordPress.com admin",

@@ -36,7 +36,7 @@ program
 	.option( '-g, --grep <pattern>', 'only run tests matching <pattern>' );
 
 program.name = 'runner';
-
+// Parsing of process for argv
 program.parse( process.argv );
 
 const mocha = new Mocha( {
