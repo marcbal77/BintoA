@@ -50,7 +50,7 @@ function getExternals() {
 		externals.react = 'commonjs react/dist/react.min';
 		externals.redux = 'commonjs redux/dist/redux.min';
 	}
-
+	// return external values 
 	return externals;
 }
 
@@ -89,11 +89,13 @@ var webpackConfig = {
 			}
 		]
 	},
+	// module resolve
 	resolve: {
 		extensions: [ '', '.json', '.js', '.jsx' ],
 		root: [ path.join( __dirname, 'server' ), path.join( __dirname, 'client' ), __dirname ],
 		modulesDirectories: [ 'node_modules' ]
 	},
+	// module node
 	node: {
 		// Tell webpack we want to supply absolute paths for server code,
 		// specifically needed by the client code bundler.
