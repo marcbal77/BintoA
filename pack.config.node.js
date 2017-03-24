@@ -91,9 +91,9 @@ var webpackConfig = {
 	},
 	// module resolve
 	resolve: {
-		extensions: [ '', '.json', '.js', '.jsx' ],
+		extensions: [ '', '.json', '.js', '.jsx' ], // Provided js extensions
 		root: [ path.join( __dirname, 'server' ), path.join( __dirname, 'client' ), __dirname ],
-		modulesDirectories: [ 'node_modules' ]
+		modulesDirectories: [ 'node_modules' ] // Directories for Node Modules
 	},
 	// module node
 	node: {
