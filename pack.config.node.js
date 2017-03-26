@@ -118,7 +118,7 @@ var webpackConfig = {
 		new webpack.NormalModuleReplacementPlugin( /^state\/posts\/selectors$/, 'lodash/noop' ), // will never be called server-side
 		new webpack.NormalModuleReplacementPlugin( /^client\/layout\/guided-tours\/config$/, 'components/empty-component' ) // should never be required server side
 	],
-	externals: getExternals()
+	externals: getExternals() // Get external webpacks - plug-in dependencies
 };
 //enable opt out option - opinino based serve
 if ( config.isEnabled( 'webpack/persistent-caching' ) ) {
