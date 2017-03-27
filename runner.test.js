@@ -38,7 +38,7 @@ program
 program.name = 'runner';
 // Parsing of process for argv
 program.parse( process.argv );
-
+// establish use case constant
 const mocha = new Mocha( {
 	ui: 'bdd',
 	reporter: program.reporter
