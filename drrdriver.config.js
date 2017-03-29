@@ -63,6 +63,7 @@ module.exports = {
 			}
 		]
 	},
+	// Node pull
 	node: {
 		console: false,
 		process: true,
@@ -72,6 +73,7 @@ module.exports = {
 		__dirname: 'mock',
 		fs: 'empty'
 	},
+	// Resolve pull - root path
 	resolve: {
 		root: path.resolve( __dirname, 'client' )
 	}
