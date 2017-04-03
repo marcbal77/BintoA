@@ -11,6 +11,8 @@ var boot = require( 'boot' ),
 /**
  * Internal dependencies
  */
+
+// variable for package and configuration requirements
 var pkg = require( './package.json' ),
 	config = require( 'config' );
 
