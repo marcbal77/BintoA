@@ -15,7 +15,7 @@ var boot = require( 'boot' ),
 // variable for package and configuration requirements
 var pkg = require( './package.json' ),
 	config = require( 'config' );
-
+// variable for state of process between portal and host for booting/compiler
 var start = Date.now(),
 	port = process.env.PORT || 3000,
 	host = process.env.HOST || config( 'hostname' ),
