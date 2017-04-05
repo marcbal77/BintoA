@@ -37,6 +37,7 @@ console.log( chalk.yellow( '%s booted in %dms - http://%s:%s' ), pkg.name, ( Dat
 // console - info
 console.info( chalk.cyan( '\nGetting bundles ready, hold on...' ) );
 
+// server hookup to app
 server = http.createServer( app );
 
 // The desktop app runs Calypso in a fork.
