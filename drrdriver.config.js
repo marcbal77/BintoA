@@ -10,7 +10,7 @@ const webpack = require( 'webpack' );
 const config = require( './server/config' );
 
 const bundleEnv = config( 'env' );
-
+// module for exports entered into configurations
 module.exports = {
 	entry: {
 		vendor: [
