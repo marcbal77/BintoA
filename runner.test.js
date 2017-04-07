@@ -35,6 +35,7 @@ program
 	.option( '-i, --node-index <n>', 'specify the node index to use', parseInt )
 	.option( '-g, --grep <pattern>', 'only run tests matching <pattern>' );
 
+// naming of process
 program.name = 'runner';
 // Parsing of process for argv
 program.parse( process.argv );
@@ -44,6 +45,7 @@ const mocha = new Mocha( {
 	reporter: program.reporter
 } );
 
+// if loop for program grep
 if ( program.grep ) {
 	mocha.grep( new RegExp( program.grep ) );
 }
