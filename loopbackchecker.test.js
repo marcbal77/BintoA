@@ -77,6 +77,7 @@ files = files.reduce( ( memo, filePath ) => {
 	if ( /\.jsx?$/i.test( filePath ) ) {
 		if ( ! filePath.includes( '/test/' ) ) {
 			// did we just forget the test directory?
+			// well, lets go find it...
 			const pathGuess = path.join(
 				path.dirname( filePath ),
 				'test',
