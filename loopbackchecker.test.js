@@ -84,6 +84,7 @@ files = files.reduce( ( memo, filePath ) => {
 				path.basename( filePath )
 			);
 				//Path Check
+				//If Loop with and without bold
 			if ( fs.existsSync( pathGuess ) ) {
 				console.warn(
 					chalk.red.bold( 'WARNING:' ),
