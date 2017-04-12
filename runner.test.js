@@ -42,6 +42,7 @@ program.parse( process.argv );
 // establish use case constant
 const mocha = new Mocha( {
 	ui: 'bdd',
+	// reporter constant for program
 	reporter: program.reporter
 } );
 
