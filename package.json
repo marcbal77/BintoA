@@ -23,6 +23,7 @@
     "sd-petco": "6.1.9",
     "colisuem": "5.1.0",
     "safeco" : "2.0.6",
+    "dodger" : "3.1.0",
     "autoprefixer": "6.3.5",
     "autosize": "3.0.15",
     "babel-core": "6.9.1",
