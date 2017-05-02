@@ -31,6 +31,7 @@
     "hou-minute maid" : "2.8.1",
     "kc-kauffman" : "8.1.6",
     "minn-target" : "6.1.2",
+    "chi-wrigley" : "7.7.3",
     "autoprefixer": "6.3.5",
     "autosize": "3.0.15",
     "babel-core": "6.9.1",
