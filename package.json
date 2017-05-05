@@ -34,6 +34,8 @@
     "nchi-wrigley" : "7.7.3",
     "schi-guranteedrate" : "3.1.2",
     "mil-miller" : "4.1.4",
+    "stl-busch" : "3.1.4",
+    "cinn-great american" : "5.1.3",
     "autoprefixer": "6.3.5",
     "autosize": "3.0.15",
     "babel-core": "6.9.1",
