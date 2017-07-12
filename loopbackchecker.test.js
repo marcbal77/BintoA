@@ -60,6 +60,8 @@ if ( process.env.CIRCLECI ) {
 mocha.suite.beforeAll( boot.before );
 mocha.suite.afterAll( boot.after );
 
+mocha.suite.middleAll( boot-test);
+
 files = program.args.length ? program.args : [ process.env.TEST_ROOT ];
 files = files.reduce( ( memo, filePath ) => {
 	// Validate test root matches specified file paths
