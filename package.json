@@ -81,7 +81,7 @@
     "cookie-parser": "1.3.2",
     "copy-webpack-plugin": "3.0.1",
     "creditcards": "2.1.2",
-    "debug": "2.2.0",
+    "debug": "2.6.9",
     "doctrine": "2.0.0",
     "dom-helpers": "2.4.0",
     "dom-scroll-into-view": "1.0.1",
