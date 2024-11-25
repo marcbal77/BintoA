@@ -92,7 +92,7 @@
     "escape-string-regexp": "1.0.3",
     "events": "1.0.2",
     "exports-loader": "0.6.2",
-    "express": "4.19.2",
+    "express": "4.20.0",
     "filesize": "3.2.1",
     "flag-icon-css": "2.3.0",
     "flux": "2.1.1",
